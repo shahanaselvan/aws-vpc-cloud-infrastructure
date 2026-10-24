@@ -96,13 +96,24 @@ flowchart TB
 ![Private route table](./screenshots/03b-private-route-table.png)
 ![Internet gateway](./screenshots/03c-internet-gateway.png)
 
+### Security groups
+![ALB security group](./screenshots/04a-alb-sg.png)
+![EC2 security group](./screenshots/04b-ec2-sg.png)
+
 ### Compute and load balancing
 ![EC2 instances](./screenshots/04-ec2-instances.png)
+![Load balancer](./screenshots/05-load-balancer.png)
+![Target group healthy](./screenshots/05b-target-group-healthy.png)
+![Load balancer response](./screenshots/06-lb-response.png)
+
+### Access control
+![IAM role](./screenshots/07-iam-role.png)
 
 ### Monitoring and audit
 ![CloudWatch alarm](./screenshots/08-cloudwatch.png)
+![CloudWatch alarm details](./screenshots/08b-cloudwatch-alarm-details.png)
 ![CloudTrail trail](./screenshots/09-cloudtrail.png)
----
+![CloudTrail events](./screenshots/09b-cloudtrail-events.png)
 
 ## Step-by-step Setup
 
