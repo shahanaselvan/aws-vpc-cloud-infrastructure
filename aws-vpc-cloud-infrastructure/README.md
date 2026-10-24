@@ -87,22 +87,21 @@ flowchart TB
 
 ## Screenshots
 
-See the [`screenshots`](./screenshots) folder. Suggested files:
+### VPC and subnets
+![VPC resource map](./screenshots/01-vpc.png)
+![Subnets](./screenshots/02-subnets.png)
 
-| File | Shows |
-|---|---|
-| `01-vpc.png` | VPC and CIDR |
-| `02-subnets.png` | Four subnets |
-| `03-route-tables.png` | Public/private routing |
-| `04-ec2-instances.png` | EC2-A and EC2-B running |
-| `05-load-balancer.png` | Load balancer and target group health |
-| `06-lb-response.png` | Response served via the load balancer |
-| `07-iam-role.png` | IAM role and policies |
-| `08-cloudwatch.png` | Monitoring |
-| `09-cloudtrail.png` | Audit logs |
+### Routing
+![Public route table](./screenshots/03a-public-route-table.png)
+![Private route table](./screenshots/03b-private-route-table.png)
+![Internet gateway](./screenshots/03c-internet-gateway.png)
 
-<!-- TODO: After adding images, embed them like: ![VPC](./screenshots/01-vpc.png) -->
+### Compute and load balancing
+![EC2 instances](./screenshots/04-ec2-instances.png)
 
+### Monitoring and audit
+![CloudWatch alarm](./screenshots/08-cloudwatch.png)
+![CloudTrail trail](./screenshots/09-cloudtrail.png)
 ---
 
 ## Step-by-step Setup
